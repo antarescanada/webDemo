@@ -1,0 +1,202 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    display: block;
+    
+}
+body{
+    
+    margin: 0px;padding: 0px;
+}
+/* 伪类红色下划线 */
+ul:first-child:before{
+    content: "";
+    width: 53px;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    top: 28px;
+    left: 85px;
+}
+a:link {
+    text-decoration: none;
+    color: #000;
+    }
+    a:visited {
+    text-decoration: none;
+    }
+    a:hover {
+    text-decoration: none;
+    }
+    a:active {
+    text-decoration: none;
+    }
+#topnav{
+    background: #FAFBFD;
+
+    font-family: "Scotiabank-Regular","Frutiger-Roman",sans-serif;
+    height: 42px;
+    font-size: 13px;
+    overflow:visible;
+    position: relative;
+    top:-9px;
+    border:0.5px solid #ededed;
+
+   
+}
+#topnav li {
+	float:left;
+	list-style: none;
+    
+}
+
+#topnav a {
+	padding:5px 2px 15px 44px;
+    float:left
+    
+}
+
+.nav-link{
+   
+    float: left;
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    cursor: default;
+    
+  
+}
+.tn-container{
+    position: relative;
+    left:200px;
+    
+    
+}
+
+.top-nav-right{
+    position: relative;
+    left: 550px;
+    text-align: center;
+    font-size: 13px;
+    
+}
+#top-nav-right a{
+    font-size: 13px;
+    color: #000;
+}
+.dropdown-toggle{
+    cursor: default;
+}
+.dropdown-menu{
+    height: 80px;
+    width: 50px;
+ 
+}
+#dropdown-menu a{
+    color: #000;
+}
+.icon{
+    width: 1em;
+    height: 1em;
+    fill: red;
+    vertical-align: -.125em;
+}
+
+.dropdown-menu a:hover{
+    background-color:#FAFBFD;
+    width: 100%;
+    cursor: default;
+    
+}
+.check{
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 10px;
+    width: 8px;
+    height: 13px;
+    transform: rotate(45deg);
+    border-style: solid;
+    border-color:#000;
+    border-width:   0 2px 2px 0 ;
+}
+
+
+#topnav span:hover {
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(192, 180, 182);
+    
+}
+/* 第二层设计 */
+.desktop{
+    position: absolute;
+    top: 65px;
+    left: 280px;
+}
+/* form{
+    position: absolute;
+    top: 80px;
+    left: 650px;
+}
+form img{
+    width: 15px;
+    height: 15px;
+}
+form input{
+    width: 320px;
+    height: 50px;
+} */
+/* 搜索框先设计一个div，再在中间加入input和Button图标，将二者边框取消 */
+.t-container{
+    width: 800px;
+}
+.h-container{
+    /* background-image: url(img/搜索.svg); */
+	/*定义画的格子大小*/
+	width: 300px;
+	height: 40px;
+	text-align: left;
+    border: 1px solid #458591;
+    position: absolute;
+    top: 65px;
+    left: 600px;
+    border-radius: 6px;
+}
+.h-container button{
+    
+    border: 1;
+    background: none;
+    border: none;
+    float: right; 
+    
+}
+form img{
+    width: 30px;
+    height: 35px;
+    
+}
+.h-container input{
+    height: 35px;width: 200px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: 1px;
+    left: 10px;
+}
+.h-container li{
+    list-style:none;
+    float: left;
+    position: relative;
+    margin:auto;
+    padding:0 0 0 20px;
+    top: -40px;
+    left: 400px;
+}
+.h-container span{
+    position: relative;
+    top: 20px;
+    right: 50px;
+    color: #000;
+}
+/* sign in部分 */
